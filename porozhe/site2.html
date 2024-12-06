@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site2</title>
+</head>
+
+    <body style=" background-image:url(pic/بک\ گراند\ سایت2.jpg); background-repeat: no-repeat; ">
+        
+        <h1 style="text-align: center; background-color: rgb(0, 255, 191); margin: 0; padding: 10px;">خرید قطعات </h1>
+        <h2 style="text-align: center; background-color: rgb(229, 255, 0); color: rgb(0, 0, 0); margin: 0; padding: 10px;">ثبت نام پروفایل کاربری  </h2>
+        <form method="post" style="margin: 20px;">
+            <label style="color: antiquewhite;" for="name">نام:</label>
+            <input type="text" id="name" name="name"><br><br>
+    
+            <label style="color: antiquewhite;" for="family">نام خانوادگی:</label>
+            <input type="text" id="family" name="family"><br><br>
+    
+            <label style="color: antiquewhite;" for="email">رایانامه:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label style="color: antiquewhite;">جنسیت:</label><br>
+            <input style="color: antiquewhite;" type="radio" id="male" name="gender" value="male">
+            <label style="color: antiquewhite;" for="male">مرد</label><br>
+            <input style="color: antiquewhite;" type="radio" id="female" name="gender" value="female">
+            <label style="color: antiquewhite;" for="female">زن</label><br>
+            <input style="color: antiquewhite;" type="radio" id="idont" name="gender" value="idont">
+            <label style="color: antiquewhite;" for="idont">نامشخص</label><br><br>
+
+            <label style="color: antiquewhite;" for="parts"> نام قطعه :</label>
+            <select id="parts" name="parts">
+                <option value="CPU">CPU</option>
+                <option value="GPU">GPU </option>
+                <option value="case">case</option>
+                <option value="motherboard">motherboard</option>
+            </select><br><br>
+    
+            <label style="color: antiquewhite;" for="price">قیمت قطعه:</label>
+            <select id="price" name="price">
+            <option value="cpu">1,000,000</option>
+            <option value="GPU">2,000,000</option>
+            <option value="motherboard">3,000,000</option>
+            <option value="case">4,000,000</option>
+            </select><br><br>
+
+            <label style="color: antiquewhite;" for="num">تعداد :</label>
+            <select id="num" name="num"> 
+            <option value="cpu">1</option>
+            <option value="cpu">2</option>
+            <option value="cpu">3</option>
+            </select><br><br>
+            <button type="submit">Save</button>
+        </form>
+        
+    
+</body>
+</html>
